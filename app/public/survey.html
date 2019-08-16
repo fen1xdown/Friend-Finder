@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>>Gamer friend finder!</title>
+
+  	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+	<link rel="stylesheet" href="css/reset.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+          
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="header">
+				<a href="/" id="logo">Gamer Finder!</a>
+				<ul class="right hide-on-med-and-down" id="head-nav-links">
+					<li><a href="/survey">Survey</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<div>
+						<h1>Survey Questions</h1>
+						<div class="divider"></div>
+
+						<h3>About You</h3>
+
+						<div class="input-field col s6">
+							<h5>Name </h5>
+							<i >account</i>
+							<input type="text" class="validate" placeholder="Your Name Here" id="userName">
+						</div>
+
+						<div class="input-field col s12">
+							<h3>Question 1</h3>
+							<h5>Victory is the goal of every match!</h5>
+							<select id="question1">
+								<option value="" disabled selected>Make your choice</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h3>Question 2</h3>
+							<h5>I rely more on my own skill than my team's</h5>
+							<select id="question2">
+								<option value="" disabled selected>Make your choice</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h3>Question 3</h3>
+							<h5>1 v 5 situation, match point, do you got this?</h5>
+							<select id="question3">
+								<option value="" disabled selected>Make your choice</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h3>Question 4</h3>
+							<h5>I only follow the meta, no deviation!</h5>
+							<select id="question4">
+								<option value="" disabled selected>Make your choice</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h3>Question 5</h3>
+							<h5>I have broken things from raging so hard!</h5>
+							<select id="question5">
+								<option value="" disabled selected>Make your choice</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h3>Question 6</h3>
+							<h5>chatting is for the lobby, it's game time!</h5>
+							<select id="question6">
+								<option value="" disabled selected>Make your choice</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h3>Question 7</h3>
+							<h5>If someone else is getting carried, I'll let them know!</h5>
+							<select id="question7">
+								<option value="" disabled selected>Make your choice</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h3>Question 8</h3>
+							<h5>When you're playing, you are in the zone! Nothing breaks your concentration!</h5>
+							<select id="question8">
+								<option value="" disabled selected>Make your choice</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h3>Question 9</h3>
+							<h5>Team moral is just as important as skill</h5>
+							<select id="question9">
+								<option value="" disabled selected>Make your choice</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h3>Question 10</h3>
+							<h5>I am the leader, not the follower!</h5>
+							<select id="question10">
+								<option value="" disabled selected>Make your choice</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+						<div>
+							<button class="btn" type="submit" name="action" id="submitButton">Submit 
+								<i class="material-icons right">send</i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5>Friend Finder App</h5>
+					<p>Thank you for taking the brief survey. Your responses will be used for training purposes only :-].</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div id="userResultModel" class="modal">
+		<div class="modal-content">
+			<h4>Your Gamer Friend</h4>
+			<div class="divider"></div>
+			<h5 id="gamerMatch"></h5>
+			<img id="gamerMatchImage" class="materialboxed" width="650" src="">
+		</div>
+		<div class="modal-footer">
+			<a href="/survey" class="modal-action modal-close btn-flat">retry?</a>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('select').material_select();
+
+			$('.modal').modal({
+				dismissible: false,
+				opacity: .5,
+				startingTop: '12%',
+				endingTop: '20%'
+			});
+		});
+
+		$('#submitButton').on('click', function(event) {
+			event.preventDefault();
+
+			var userInput = {
+				name: $('#userName').val().trim(),
+				scores:[
+					$('#question1').val().trim(),
+					$('#question2').val().trim(),
+					$('#question3').val().trim(),
+					$('#question4').val().trim(),
+					$('#question5').val().trim(),
+					$('#question6').val().trim(),
+					$('#question7').val().trim(),
+					$('#question8').val().trim(),
+					$('#question9').val().trim(),
+					$('#question10').val().trim()
+				]
+			};
+
+			$.post('/api/friends', userInput)
+      		.done(function(data) {
+      			$('#gamerMatch').html(data.matchName);
+		    	$("#gamerMatchImage").attr("src", data.matchImage);
+      			$('#userResultModel').modal('open');
+      		});
+		});
+	</script>
+</body>
+</html>
