@@ -1,7 +1,7 @@
 {
-  "name": "friend-finder",
+  "name": "2020-portfolio",
   "version": "1.0.0",
-  "description": "An Node.js and Express based friend matching application.",
+  "description": "",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.17.1",
@@ -18,17 +18,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fen1xdown/friend-finder.git"
+    "url": "git+https://github.com/fen1xdown/2020-portfolio.git"
   },
   "keywords": [
-    "friend-finder",
-    "friend-match",
-    "compatibility"
+    "portfolio",
+    "Cameron Calder"
   ],
-  "author": "Anna D Derbakova",
-  "license": "ISC",
+  "author": "Cameron Calder",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fen1xdown/friend-finder/issues"
+    "url": "https://github.com/fen1xdown/2020-portfolio/issues"
   },
-  "homepage": "https://github.com/fen1xdown/friend-finder#readme"
+  "homepage": "https://github.com/fen1xdown/2020-portfolio#readme"
 }
